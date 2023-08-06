@@ -1,34 +1,3 @@
-/*body settings*/
-
-body{
-    background-color: #77baff;
-    color: #1b026c;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 10px;
-}
-
-h1{
-    text-align: center;
-    font-size: 3em;
-    text-transform: uppercase;
-}
-
-/*footer settings*/
-
-footer{
-    display: flex;
-    flex-wrap: wrap;
-    padding: .5em;
-    background-color: #14024d;
-    border-radius: .5em;
-}
-
-footer > p{
-    margin-left: auto;
-    color: white;
-    font-size: small;
-}
-
 /*impostazioni indice*/
 
 ul.indice{
