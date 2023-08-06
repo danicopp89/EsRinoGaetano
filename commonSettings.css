@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/*navbar settings*/
+
+ul.navbar{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    align-content: space-around;
+    padding: .5em;
+    list-style-type: none;
+    background-color: #14024d;
+    border-radius: .5em;
+}
+
+ul.navbar > li{
+    margin-top: 0;
+}
+
+ul.navbar > li > a{
+    display: flex;
+    /*Gli elementi <a> di solito sono "in-line":
+    questa regola li forza ad essere elementi block, questo comporta che diventano dei box*/
+    padding: .5em/*padding top e bottom*/ 1em/*padding laterale*/;
+    background-color: #1b026c;
+    color: white;
+    text-decoration: none;
+}
+
+ul.navbar > li >a:hover{
+    background-color: #77baff;
+}
+
+ul.navbar >li + li{
+    margin-left: .5em;
+}
+
+/*responsive design*/
+
+@media (min-width: 1025px) and (max-width: 1400px){
+    html{
+        font-size: 1em;
+    }
+    header, footer{
+        max-width: 1400px;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1024px){
+    html{
+        font-size: 1em;
+    }
+    header, footer{
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+    html{
+        font-size: 1em;
+    }
+    header, footer{
+        max-width: 979px;
+    }
+}
+
+@media (min-width: 481px) and(max-width: 767px){
+    html{
+        font-size: 0.8em;
+    }
+    header, footer{
+        max-width: 767px;
+    }
+}
+
+@media (min-width: 321px) and(max-width: 480px){
+    html{
+        font-size: 0.5em;
+    }
+
+    header, footer{
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 320px){
+    html{
+        font-size: 0.3em;
+    }
+    header, footer{
+        max-width: 320px;
+    }
+}
