@@ -4,7 +4,7 @@
 
 ul.navbar{
     display: flex;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     align-content: space-around;
     padding: .5em;
     list-style-type: none;
